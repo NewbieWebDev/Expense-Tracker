@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import {GlobalContext} from '../../context/GlobalState';
-import Transaction from '../transaction/transaction';
+
 import {numberWithCommas} from '../../utils/format'
 
 const Balance = () => {
